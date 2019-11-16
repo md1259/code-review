@@ -1,4 +1,10 @@
 // JavaScript Document
 
-console.log('JavaScript main.js loaded. ');
+window.onload = pageDoneLoading('window');
 
+
+function pageDoneLoading(more){
+
+    console.log('JavaScript main.js loaded. ' +more);
+    
+}
